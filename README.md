@@ -29,11 +29,11 @@ Implementation for sending encrypted data over network (along with decryption on
 It contains a client.c file and a server.c file. The client and server are communicating over TCP socket.
 
 ##Steps
-Clear text is provided to the client.
-Client decrypts the clear text.
-Clients sends the encrypted text to the server.
-Server receives the encrypted text.
-Server decrypts the text and displays is on screen. 
+- Clear text is provided to the client.
+- Client decrypts the clear text.
+- Clients sends the encrypted text to the server.
+- Server receives the encrypted text.
+- Server decrypts the text and displays is on screen. 
 
 ##Start Server
 ```sh
